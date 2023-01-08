@@ -13,7 +13,7 @@ public class OrderRepository {
     HashMap<String,Order> orderDb = new HashMap<>();
     HashMap<String,DeliveryPartner> partnerDb = new HashMap<>();
     HashMap<String,List<String>> assigned = new HashMap<>();
-    HashSet<String> unAssigned = new HashSet<String>();
+    HashSet<String> unAssigned = new HashSet<>();
 
 
     public void addOrder(Order order) {
